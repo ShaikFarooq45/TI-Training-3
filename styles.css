@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(205, 203, 203);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background:  #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(182, 81, 81, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: calc(100% - 60px);
+    padding: 10px;
+    margin: auto;
+}
+
+#addButton {
+    padding: 10px;
+    margin-left: 86%;
+    
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #cf2020;
+    
+}
+
+.edit-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+.edit-button:hover, .delete-button:hover {
+    text-decoration: underline;
+}
